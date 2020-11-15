@@ -3,6 +3,7 @@ import React from "react";
 // components
 import MyNavBar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/my-carousel.component";
+import TitleMessage from "./components/title-message/title-message.component";
 
 import "./App.css";
 
@@ -11,7 +12,7 @@ const App = () => {
     <div>
       <MyNavBar />
       <MyCarousel />
-      My Portfolio
+      <TitleMessage />
     </div>
   );
 };

@@ -8,35 +8,31 @@ import "./my-carousel.styles.css";
 
 const MyCarousel = () => {
   return (
-    <>
-      <Carousel controls={false} indicators interval={2500} pause={false}>
+    <div id="home">
+      <Carousel controls={false} indicators interval={2200} pause={false}>
         <Carousel.Item>
-          <img className="d-block w-100" src={Slide3} alt="First slide" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+          <img
+            className="d-block w-100 custom-img"
+            src={Slide3}
+            alt="First slide"
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={Slide2} alt="Third slide" />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          <img
+            className="d-block w-100 custom-img"
+            src={Slide2}
+            alt="Third slide"
+          />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={Slide1} alt="Third slide" />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+          <img
+            className="d-block w-100 custom-img"
+            src={Slide1}
+            alt="Third slide"
+          />
         </Carousel.Item>
       </Carousel>
-    </>
+    </div>
   );
 };
 
