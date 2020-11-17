@@ -3,12 +3,15 @@ import Fade from "react-reveal/Fade";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 
-// components
+// components start here
+
 import MyNavBar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/my-carousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
 import ScrollDown from "./components/scroll-down/scroll-down.component";
 import About from "./pages/about/about.components";
+import Skills from "./pages/skills/skills.components";
+
 import "./App.css";
 
 const App = () => {
@@ -34,6 +37,8 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+      {/* skills begin here */}
+      <Skills />
     </div>
   );
 };
