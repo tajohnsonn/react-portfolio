@@ -3,7 +3,7 @@
 }
 
 .focus:hover {
-  transform: scale(1.02);
+  transform: scale(1.2);
 }
 
 .card-title {
@@ -12,17 +12,15 @@
 }
 
 .image-style {
-  width: 3em;
+  width: 3.2em;
 }
 
 .font-details {
-  font-size: 2em;
-  font-weight: 450;
-  color: #231d5af8;
+  font-weight: 520;
 }
 
 .font-details-b {
-  font-size: 2em;
-  font-weight: 450;
-  color: #ffffff;
+  font-size: 4em;
+  font-weight: 520;
+  color: pink;
 }

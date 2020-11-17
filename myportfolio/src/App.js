@@ -29,6 +29,7 @@ const App = () => {
           strength={-900}
         >
           <div>
+            {/* this container structure is what centers the content and keeps everything in line */}
             <Container className="container-box rounded">
               <Fade duration={500}>
                 <About />
@@ -38,7 +39,13 @@ const App = () => {
         </Parallax>
       </div>
       {/* skills begin here */}
-      <Skills />
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <Skills />
+          </Fade>
+        </Container>
+      </div>
     </div>
   );
 };

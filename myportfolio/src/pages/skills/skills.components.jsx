@@ -18,12 +18,13 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               {/* work experience for front end dev here */}
               <Card.Body>
-                {/* Frontend */}
+                {/* My Frontend Skills  */}
                 <Card.Title className="text-center  card-title">
                   Frontend
                 </Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
+                  {/* this function will loop through all of the key inputs */}
                   {skills.frontend.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a
@@ -47,7 +48,7 @@ const Skills = () => {
             </Card>
           </Col>
 
-          {/* Backend */}
+          {/* My Backend Skills */}
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
@@ -78,7 +79,7 @@ const Skills = () => {
               </Card.Body>
             </Card>
 
-            {/* Hosting Platforms */}
+            {/* My Hosting Platforms */}
             <Card className="focus mt-2 mb-2 ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
@@ -109,7 +110,9 @@ const Skills = () => {
             </Card>
           </Col>
 
-          {/* Programming Languages */}
+          {/* end of fist column */}
+
+          {/* My Programming Languages */}
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
@@ -140,7 +143,7 @@ const Skills = () => {
               </Card.Body>
             </Card>
 
-            {/* Database */}
+            {/* My Database */}
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
@@ -170,7 +173,7 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            {/* Version Control */}
+            {/* My Version Control */}
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
@@ -199,6 +202,7 @@ const Skills = () => {
               </Card.Body>
             </Card>
           </Col>
+          {/* end of second column */}
         </Row>
       </CardDeck>
     </div>
