@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Profile from "../../assets/img/profile/t-aboutme.jpeg";
 
-// import "./about.style.class";
+import "./about.styles.css";
 
 const About = () => {
   return (

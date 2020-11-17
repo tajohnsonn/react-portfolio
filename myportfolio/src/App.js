@@ -21,9 +21,9 @@ const App = () => {
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.jpg")}
+          bgImage={require("./assets/img/background/background.jpg")}
           bgImageAlt=""
-          strength={-240}
+          strength={-900}
         >
           <div>
             <Container className="container-box rounded">
