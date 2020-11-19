@@ -7,27 +7,9 @@ import Image from "react-bootstrap/Image";
 // project imports
 import LocalEats from "../../assets/img/projects/LocalEats.png";
 import FiveStarEats from "../../assets/img/projects/StarRecipes.png";
-
-// my skill imports
-import HTML5 from "../../assets/img/skills/html.svg";
-import CSS3 from "../../assets/img/skills/css.svg";
-import SASS from "../../assets/img/skills/sass.svg";
-import BOOTSTRAP from "../../assets/img/skills/bootstrap.svg";
-import REACT from "../../assets/img/skills/react.svg";
-import REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-// backend imports
-import NODE_JS from "../../assets/img/skills/nodejs.svg";
-// DB imports
-import MONGODB from "../../assets/img/skills/mongodb.svg";
-// version control imports
-import GIT from "../../assets/img/skills/git.svg";
-// hosting imports
-import HEROKU from "../../assets/img/skills/heroku.svg";
-import GITHUB_PAGES from "../../assets/img/skills/github.svg";
-// programming lang. imports
-import JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-
+import WorkDay from "../../assets/img/projects/WorkdayApp.png";
+import WorkoutTracker from "../../assets/img/projects/WorkoutTracker.png";
+import BudgetTracker from "../../assets/img/projects/BudgetTracker.png";
 import "./projects-timeline.style.css";
 
 const ProjectTimeline = () => {
@@ -97,6 +79,71 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
+          {/* workday project starts here */}
+
+          <ImageEvent
+            date="08/2020"
+            className="text-center"
+            text="WORK DAY SCHEDULER"
+            src={WorkDay}
+            alt="Work Day Tracker"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Stay organized with this
+                        fun pink themed work day scheduler.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Save events for each hour of the work day</li>
+                          <li>
+                            Highlights current hour with a different color
+                          </li>
+                          <li>Shows current date</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://tajohnsonn.github.io/dayPlanner/"
+                  target="_blank"
+                >
+                  LIVE DEMO
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/tajohnsonn/dayPlanner"
+                  target="_blank"
+                >
+                  REPOSITORY
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* 5 Star Eats Project */}
           <ImageEvent
             date="09/2020"
             className="text-center"
@@ -156,6 +203,142 @@ const ProjectTimeline = () => {
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/tajohnsonn/5StarRecipes"
+                  target="_blank"
+                >
+                  REPOSITORY
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* workout tracker project starts here */}
+
+          <ImageEvent
+            date="10/2020"
+            className="text-center"
+            text="WORKOUT TRACKER"
+            src={WorkoutTracker}
+            alt="Workout Tracker"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>User Story:</strong> I want to be able to view
+                        create and track daily workouts. I want to be able to
+                        log multiple exercises in a workout on a given day.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Add exercises to a previous workout plan.</li>
+                          <li>Add new exercises to a new workout plan.</li>
+                          <li>
+                            View the combined weight of multiple exercises on
+                            the stats page.
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                          <li>MongoDB</li>
+                          <li>Express.js</li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://blooming-spire-19184.herokuapp.com/?id=5f9b5ca0373da30017012e2f"
+                  target="_blank"
+                >
+                  LIVE DEMO
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/tajohnsonn/workoutTracker"
+                  target="_blank"
+                >
+                  REPOSITORY
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* budget tracker tracker project starts here */}
+
+          <ImageEvent
+            date="10/2020"
+            className="text-center"
+            text="BUDGET TRACKER"
+            src={BudgetTracker}
+            alt="Budget Tracker"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>User Story:</strong>The user will be able to add
+                        expenses and deposits to their budget with or without a
+                        connection. When entering transactions offline, they
+                        should populate the total when brought back online.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Enter deposits offline</li>
+                          <li>Enter expenses offline</li>
+                          <li>
+                            Offline entries are added to tracker once the
+                            application is online.
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>NodeJS</li>
+                          <li>Express</li>
+                          <li>MongoDB</li>
+                          <li>Mongoose</li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://frozen-tundra-49156.herokuapp.com/"
+                  target="_blank"
+                >
+                  LIVE DEMO
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/tajohnsonn/budgetTracker"
                   target="_blank"
                 >
                   REPOSITORY
