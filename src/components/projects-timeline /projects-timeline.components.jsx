@@ -6,6 +6,7 @@ import Image from "react-bootstrap/Image";
 
 // project imports
 import LocalEats from "../../assets/img/projects/LocalEats.png";
+import FiveStarEats from "../../assets/img/projects/StarRecipes.png";
 
 // my skill imports
 import HTML5 from "../../assets/img/skills/html.svg";
@@ -68,41 +69,12 @@ const ProjectTimeline = () => {
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={JAVASCRIPT}
-                                alt="Javascript"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Javascript
-                            </span>
-                          </li>
+                        <ul className="list-styles pt-1">
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
                         </ul>
+                        <hr />
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -129,8 +101,8 @@ const ProjectTimeline = () => {
             date="09/2020"
             className="text-center"
             text="5 STAR EATS"
-            src={LocalEats}
-            alt="Local Eats"
+            src={FiveStarEats}
+            alt="5 Star Eats"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -146,6 +118,7 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
+                        <hr />
                         <strong>User Story:</strong> I’m stuck in a pandemic and
                         I don’t know what to cook. I need an app that will
                         provide me with recipes I can make with what I have.
@@ -158,42 +131,17 @@ const ProjectTimeline = () => {
                           <li>Health Filters</li>
                         </ul>
                         <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={JAVASCRIPT}
-                                alt="Javascript"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Javascript
-                            </span>
-                          </li>
+                        <strong>Technology Used</strong>
+                        <ul className="list-styles pt-1">
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                          <li>Bulma</li>
+                          <li>Zurb Foundation</li>
+                          <li>EmailJS</li>
+                          <li>EDAMAM</li>
                         </ul>
+                        <hr />
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
