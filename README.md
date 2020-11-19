@@ -1,6 +1,6 @@
 # <span style="color:pink">React Portfolio 👩🏽‍💻</span>
 
-##This is a portfolio created using React.
+This is a portfolio created using React.
 
 ---
 
