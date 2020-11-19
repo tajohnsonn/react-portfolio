@@ -16,15 +16,15 @@ const MyTitleMessage = styled.h1`
     color: black;
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     font-weight: 100;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     .main {
       font-size: 60px;
     }
     .subtitle {
       font-size: 50px;
       letter-spacing: 3px;
-      color: blue !important;
-      margin-top: 55px;
+      color: grey !important;
+      margin-top: 30px;
     }
   }
 `;
@@ -34,10 +34,10 @@ const TitleMessage = () => (
     <div className="title-Message">
       <div className="heading">
         <div className="main text-center mb-3">
-          Hi, I am
+          Hey there,
           <br />
           <span>
-            <strong>Taylor A Johnson</strong>
+            <strong> I am Taylor J.</strong>
           </span>
         </div>
         <div className="subtitle">
@@ -51,7 +51,7 @@ const TitleMessage = () => (
               ],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 60
             }}
           />
         </div>

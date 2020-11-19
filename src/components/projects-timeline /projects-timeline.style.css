@@ -4,11 +4,11 @@
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 15px;
-  background-color: grey;
+  background-color: pink;
   border: none;
   border-radius: 3px;
   padding: 8px;
-  color: #fff;
+  color: black;
 }
 
 .list-styles {
@@ -17,4 +17,20 @@
 
 .image-style1 {
   width: 2em;
+}
+
+.url-button {
+  background-color: grey !important;
+}
+
+.gHthP::after {
+  background-color: grey !important;
+}
+
+.fCuWlP.fCuWlP {
+  border: 2px solid pink !important;
+}
+
+.dWSdEd.dWSdEd {
+  background-color: grey !important;
 }

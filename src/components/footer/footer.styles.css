@@ -1,7 +1,6 @@
 .footer-style {
   background-color: rgba(255, 255, 255, 0.747);
   color: rgb(32, 32, 32);
-  font-size: 2em;
-  border: 2.3px solid #727272f8;
+  font-size: 1.2em;
   border-top-left-radius: 3px;
 }
