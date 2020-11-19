@@ -1,0 +1,20 @@
+.accordian-main {
+  cursor: pointer;
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: grey;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  color: #fff;
+}
+
+.list-styles {
+  list-style-type: circle;
+}
+
+.image-style1 {
+  width: 2em;
+}

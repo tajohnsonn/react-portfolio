@@ -1,6 +1,6 @@
 // importing svg images which are smaller files than pngs + jpgs from worldvectorlogo.com
 
-// frontend imports
+// my skill imports
 import HTML5 from "../../assets/img/skills/html.svg";
 import CSS3 from "../../assets/img/skills/css.svg";
 import SASS from "../../assets/img/skills/sass.svg";
@@ -19,6 +19,7 @@ import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 // programming lang. imports
 import JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import Slack from "../../assets/img/skills/slack-new-logo.svg";
 
 export const skills = {
   // frontend skills start here
@@ -76,6 +77,12 @@ export const skills = {
       imgAltText: "Node.js",
       imgSrc: NODE_JS,
       skillName: "Node.js"
+    },
+    {
+      link: "https://slack.com/",
+      imgAltText: "Slack",
+      imgSrc: Slack,
+      skillName: "Slack"
     }
   ],
 

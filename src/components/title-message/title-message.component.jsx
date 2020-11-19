@@ -10,7 +10,7 @@ const MyTitleMessage = styled.h1`
   margin-top: -122px;
   text-align: center;
   strong {
-    font-size: 1.25em;
+    font-size: 1.4em;
   }
   div {
     color: black;
@@ -20,16 +20,18 @@ const MyTitleMessage = styled.h1`
     .main {
       font-size: 60px;
     }
-    .sub {
-      font-size: 30px;
+    .subtitle {
+      font-size: 50px;
       letter-spacing: 3px;
+      color: blue !important;
+      margin-top: 55px;
     }
   }
 `;
 
 const TitleMessage = () => (
   <MyTitleMessage>
-    <div className="titleMessage">
+    <div className="title-Message">
       <div className="heading">
         <div className="main text-center mb-3">
           Hi, I am
@@ -38,7 +40,7 @@ const TitleMessage = () => (
             <strong>Taylor A Johnson</strong>
           </span>
         </div>
-        <div className="sub">
+        <div className="subtitle">
           <Typewriter
             options={{
               strings: [
