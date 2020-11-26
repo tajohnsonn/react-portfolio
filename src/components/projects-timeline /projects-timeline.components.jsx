@@ -39,8 +39,10 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a app people who
-                        love food!
+                        <strong>Description:</strong> This is a application for
+                        people who love food! This app uses Google Maps and
+                        Zomato API’s, Bootstrap and Skeleton frameworks, HTML,
+                        and CSS5.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
