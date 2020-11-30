@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import Profile from "../../assets/img/profile/taylorj-circle-img.png";
+import Profile from "../../assets/img/profile/57122209.jpg";
 
 import "./about.styles.css";
 

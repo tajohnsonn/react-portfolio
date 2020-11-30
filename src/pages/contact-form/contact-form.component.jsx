@@ -13,18 +13,6 @@ const Contact = () => {
       <Jumbotron className="contact-jumbotron">
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
-            {/* contact by email */}
-            <div className="m-2">
-              <a
-                href="tajohnsonn@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="outline-danger" title="tajohnsonn@gmail.com">
-                  <i className="fas fa-envelope-square"></i> Email
-                </Button>
-              </a>
-            </div>
             {/* Contact by linkedin */}
             <div className="m-2">
               <a
