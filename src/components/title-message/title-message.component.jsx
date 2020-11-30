@@ -13,17 +13,16 @@ const MyTitleMessage = styled.h1`
     font-size: 1.4em;
   }
   div {
-    color: black;
+    color: grey;
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     font-weight: 100;
-    letter-spacing: 15px;
+    letter-spacing: 20px;
     .main {
       font-size: 60px;
     }
     .subtitle {
-      font-size: 50px;
-      letter-spacing: 3px;
-      color: grey !important;
+      font-size: 80px;
+      letter-spacing: 5em;
       margin-top: 30px;
     }
   }

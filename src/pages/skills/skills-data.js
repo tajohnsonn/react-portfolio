@@ -19,6 +19,9 @@ import GITHUB_PAGES from "../../assets/img/skills/github.svg";
 // programming lang. imports
 import JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import FIREBASE from "../../assets/img/skills/firebase.svg";
+import MYSQL from "../../assets/img/skills/mysql.svg";
+import PHOTOSHOP from "../../assets/img/skills/photoshop-cc.svg";
 import Slack from "../../assets/img/skills/slack-new-logo.svg";
 
 export const skills = {
@@ -77,16 +80,27 @@ export const skills = {
       imgAltText: "Node.js",
       imgSrc: NODE_JS,
       skillName: "Node.js"
-    },
+    }
+  ],
+
+  // useful skills start here
+
+  skills: [
     {
       link: "https://slack.com/",
       imgAltText: "Slack",
       imgSrc: Slack,
       skillName: "Slack"
+    },
+    {
+      link: "https://slack.com/",
+      imgAltText: "Photoshop",
+      imgSrc: PHOTOSHOP,
+      skillName: "Photoshop"
     }
   ],
 
-  // backend skills start here
+  // hosting skills start here
 
   hostingPlatforms: [
     {
@@ -100,10 +114,16 @@ export const skills = {
       imgAltText: "GitHub Pages",
       imgSrc: GITHUB_PAGES,
       skillName: "GitHub Pages"
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: FIREBASE,
+      skillName: "Firebase"
     }
   ],
 
-  // backend skills start here
+  // programming language skills start here
 
   programmingLanguages: [
     {
@@ -120,7 +140,7 @@ export const skills = {
     }
   ],
 
-  // backend skills start here
+  // database skills start here
 
   databases: [
     {
@@ -128,6 +148,12 @@ export const skills = {
       imgAltText: "MongoDB",
       imgSrc: MONGODB,
       skillName: "MongoDB"
+    },
+    {
+      link: "https://www.mysql.com/",
+      imgAltText: "MySQL",
+      imgSrc: MYSQL,
+      skillName: "MySQL"
     }
   ],
 

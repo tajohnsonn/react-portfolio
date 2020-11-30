@@ -173,6 +173,7 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+
             {/* My Version Control */}
 
             <Card className="focus mt-2 mb-2">
@@ -202,6 +203,7 @@ const Skills = () => {
               </Card.Body>
             </Card>
           </Col>
+
           {/* end of second column */}
         </Row>
       </CardDeck>
