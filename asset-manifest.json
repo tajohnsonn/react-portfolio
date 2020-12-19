@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4a90e1e1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.65027625.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.65027625.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.e36fb208.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e36fb208.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.94845178.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.94845178.js.map",
     "static/js/2.7917f212.chunk.js": "/react-portfolio/static/js/2.7917f212.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/57122209.236cfe7b.jpg": "/react-portfolio/static/media/57122209.236cfe7b.jpg",
     "static/media/BudgetTracker.2bcd2e2a.png": "/react-portfolio/static/media/BudgetTracker.2bcd2e2a.png",
     "static/media/LocalEats.994c6096.png": "/react-portfolio/static/media/LocalEats.994c6096.png",
+    "static/media/SneakerFreakers.38d8cf36.png": "/react-portfolio/static/media/SneakerFreakers.38d8cf36.png",
     "static/media/StarRecipes.e650c165.png": "/react-portfolio/static/media/StarRecipes.e650c165.png",
     "static/media/WorkdayApp.ee22728e.png": "/react-portfolio/static/media/WorkdayApp.ee22728e.png",
     "static/media/WorkoutTracker.a2063a14.png": "/react-portfolio/static/media/WorkoutTracker.a2063a14.png",
@@ -33,6 +34,7 @@
     "static/media/react.add74742.svg": "/react-portfolio/static/media/react.add74742.svg",
     "static/media/sass.8aa78a83.svg": "/react-portfolio/static/media/sass.8aa78a83.svg",
     "static/media/slack-new-logo.044efd1b.svg": "/react-portfolio/static/media/slack-new-logo.044efd1b.svg",
+    "static/media/slide-fill.99844e9c.jpg": "/react-portfolio/static/media/slide-fill.99844e9c.jpg",
     "static/media/slide1.68e9c6ca.jpg": "/react-portfolio/static/media/slide1.68e9c6ca.jpg",
     "static/media/slide2.9f00198a.jpg": "/react-portfolio/static/media/slide2.9f00198a.jpg",
     "static/media/slide3.cef8d240.jpg": "/react-portfolio/static/media/slide3.cef8d240.jpg",
@@ -43,6 +45,6 @@
     "static/js/runtime-main.94845178.js",
     "static/js/2.7917f212.chunk.js",
     "static/css/main.4a90e1e1.chunk.css",
-    "static/js/main.65027625.chunk.js"
+    "static/js/main.e36fb208.chunk.js"
   ]
 }
