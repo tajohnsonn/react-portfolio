@@ -44,7 +44,7 @@ const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
+                      <Button className="m-2" variant="outline-secondary">
                         Let's Chat!
                       </Button>
                     </a>
@@ -55,7 +55,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-success">
+                      <Button className="m-2" variant="outline-secondary">
                         My Resume
                       </Button>
                     </a>
@@ -66,7 +66,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-dark">
+                      <Button className="m-2" variant="outline-secondary">
                         GitHub
                       </Button>
                     </a>
@@ -77,7 +77,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-info">
+                      <Button className="m-2" variant="outline-secondary">
                         LinkedIn
                       </Button>
                     </a>
