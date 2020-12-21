@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Slide1 from "../../assets/img/carousel/slide1.jpg";
 import Slide2 from "../../assets/img/carousel/slide2.jpg";
 import Slide3 from "../../assets/img/carousel/slide3.jpg";
+import Slide4 from "../../assets/img/carousel/slide-fill.jpg";
 import ScrollDown from "../scroll-down/scroll-down.component";
 
 import "./my-carousel.styles.css";
@@ -28,7 +29,7 @@ const MyCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 custom-img"
-            src={Slide1}
+            src={Slide4}
             alt="Third slide"
           />
         </Carousel.Item>

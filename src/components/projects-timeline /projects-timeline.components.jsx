@@ -3,6 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import Image1 from "../../assets/img/projects/download-1.png";
 
 // project imports
 import LocalEats from "../../assets/img/projects/LocalEats.png";
@@ -10,6 +11,7 @@ import FiveStarEats from "../../assets/img/projects/StarRecipes.png";
 import WorkDay from "../../assets/img/projects/WorkdayApp.png";
 import WorkoutTracker from "../../assets/img/projects/WorkoutTracker.png";
 import BudgetTracker from "../../assets/img/projects/BudgetTracker.png";
+import SneakerFreakers from "../../assets/img/projects/SneakerFreakers.png";
 import "./projects-timeline.style.css";
 
 const ProjectTimeline = () => {
@@ -34,7 +36,8 @@ const ProjectTimeline = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -99,9 +102,9 @@ const ProjectTimeline = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
                     </Accordion.Toggle>
-
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>Description:</strong> Stay organized with this
@@ -162,7 +165,8 @@ const ProjectTimeline = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -231,9 +235,9 @@ const ProjectTimeline = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
                     </Accordion.Toggle>
-
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                         <strong>User Story:</strong> I want to be able to view
@@ -299,7 +303,8 @@ const ProjectTimeline = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -341,6 +346,78 @@ const ProjectTimeline = () => {
                 </UrlButton>
                 <UrlButton
                   href="https://github.com/tajohnsonn/budgetTracker"
+                  target="_blank"
+                >
+                  REPOSITORY
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* sneaker freakers project starts here */}
+
+          <ImageEvent
+            date="12/2020"
+            className="text-center"
+            text="SNEAKER FREAKERS"
+            src={SneakerFreakers}
+            alt="Sneaker Freakers"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>User Story:</strong>Sneaker Freakers is a React
+                        Library based interactive application, that allows users
+                        to search for sneakers by brand, through a third party
+                        API.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Search for sneaker by brand name</li>
+                          <li>Note Page</li>
+                          <li>Curated Team Written Blog Posts</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Axios</li>
+                          <li>Bycrypt</li>
+                          <li>Dotenv</li>
+                          <li>Express</li>
+                          <li>JSONWebToken</li>
+                          <li>Mongoose</li>
+                          <li>MaterialUI</li>
+                          <li>Bootstrap</li>
+                          <li>Jquery</li>
+                          <li>React Bootstrap</li>
+                          <li>Slate</li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://secret-beyond-86832.herokuapp.com/home"
+                  target="_blank"
+                >
+                  LIVE DEMO
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/sophiaorlando/Project3"
                   target="_blank"
                 >
                   REPOSITORY

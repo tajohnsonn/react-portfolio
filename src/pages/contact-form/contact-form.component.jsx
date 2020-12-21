@@ -25,6 +25,22 @@ const Contact = () => {
                 </Button>
               </a>
             </div>
+
+            {/* contact through email */}
+
+            <div className="m-2">
+              <a
+                href="mailto:tajohnsonn@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-info" title="My other projects">
+                  <i class="far fa-envelope"></i>
+                  &nbsp; Email: tajohnsonn@gmail.com
+                </Button>
+              </a>
+            </div>
+
             {/* contact through github */}
             <div className="m-2">
               <a
