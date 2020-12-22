@@ -4,6 +4,14 @@ This is a portfolio created using React.
 
 ---
 
+# Screenshots
+
+![Nav Bar & Carousel](src/assets/img/readme/readme1.png)
+
+![About Taylor J.](src/assets/img/for-readme/readme2.png)
+
+![Skills](src/assets/img/for-readme/readme3.png)
+
 ---
 
 # Link To Application 👇🏽
