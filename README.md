@@ -12,7 +12,7 @@ This is a portfolio created using React.
 
 # Github Repo 👇🏽
 
-> [Budget Tracker Repo](https://github.com/tajohnsonn/react-portfolio)
+> [2020 Portfolio Repo](https://github.com/tajohnsonn/react-portfolio)
 
 # Installation
 
