@@ -33,10 +33,10 @@ const TitleMessage = () => (
     <div className="title-Message">
       <div className="heading">
         <div className="main text-center mb-3">
-          Hey there,
-          <br />
+          {/* Hey there,
+          <br /> */}
           <span>
-            <strong> I am Taylor J.</strong>
+            <strong> I AM TAYLOR J.</strong>
           </span>
         </div>
         <div className="subtitle">

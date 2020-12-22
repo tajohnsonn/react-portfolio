@@ -28,17 +28,16 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hey there! I am <strong>&nbsp;Taylor J.</strong>
-                <br />I am a passionate and curious Front-End Web Developer in
-                Los Angeles, California.
+                <h1>
+                  Hey there, I am <strong>&nbsp;Taylor J.</strong>
+                </h1>
                 <br />
-                I have a passion for tech and creating applications that are
-                innovative and user friendly
+                Passionate and curious Front End Web Developer in Los Angeles,
+                California.
                 <br />
-                I bring professionalism, reliability, and integrity to the
-                table.
+                Brings professionalism, reliability, and integrity to the table.
                 <br />
-                I love learning and accept challenges head on.
+                Always ready to accept challenges head on.
                 <br /> <br />
                 {/* social buttons start here */}
                 <Col className="d-flex justify-content-center flex-wrap">
