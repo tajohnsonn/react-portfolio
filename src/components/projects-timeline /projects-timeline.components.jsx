@@ -18,11 +18,12 @@ const ProjectTimeline = () => {
   return (
     <div id="project">
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-      <Timeline>
+      <Timeline align="alternate">
         <Events>
           <ImageEvent
             date="02/2020"
             className="text-center"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             text="LOCAL EATS"
             src={LocalEats}
             alt="Local Eats"
