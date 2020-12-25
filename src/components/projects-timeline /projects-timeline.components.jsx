@@ -21,9 +21,9 @@ const ProjectTimeline = () => {
       <Timeline align="alternate">
         <Events>
           <ImageEvent
-            date="02/2020"
+            date="Created: 02/2020"
             className="text-center"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            id="projectTitle"
             text="LOCAL EATS"
             src={LocalEats}
             alt="Local Eats"
@@ -88,7 +88,7 @@ const ProjectTimeline = () => {
           {/* workday project starts here */}
 
           <ImageEvent
-            date="08/2020"
+            date="Created: 08/2020"
             className="text-center"
             text="WORK DAY SCHEDULER"
             src={WorkDay}
@@ -151,7 +151,7 @@ const ProjectTimeline = () => {
 
           {/* 5 Star Eats Project */}
           <ImageEvent
-            date="09/2020"
+            date="Created: 09/2020"
             className="text-center"
             text="5 STAR EATS"
             src={FiveStarEats}
@@ -221,7 +221,7 @@ const ProjectTimeline = () => {
           {/* workout tracker project starts here */}
 
           <ImageEvent
-            date="10/2020"
+            date="Created: 10/2020"
             className="text-center"
             text="WORKOUT TRACKER"
             src={WorkoutTracker}
@@ -289,7 +289,7 @@ const ProjectTimeline = () => {
           {/* budget tracker tracker project starts here */}
 
           <ImageEvent
-            date="10/2020"
+            date="Created: 10/2020"
             className="text-center"
             text="BUDGET TRACKER"
             src={BudgetTracker}
@@ -357,7 +357,7 @@ const ProjectTimeline = () => {
           {/* sneaker freakers project starts here */}
 
           <ImageEvent
-            date="12/2020"
+            date="Created: 12/2020"
             className="text-center"
             text="SNEAKER FREAKERS"
             src={SneakerFreakers}
