@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5a3b2f51.chunk.css",
-    "main.js": "/static/js/main.325e073d.chunk.js",
-    "main.js.map": "/static/js/main.325e073d.chunk.js.map",
+    "main.js": "/static/js/main.02c0dd52.chunk.js",
+    "main.js.map": "/static/js/main.02c0dd52.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.46ecc82c.js",
     "runtime-main.js.map": "/static/js/runtime-main.46ecc82c.js.map",
     "static/js/2.5be8ed01.chunk.js": "/static/js/2.5be8ed01.chunk.js",
@@ -10,7 +10,6 @@
     "index.html": "/index.html",
     "static/css/main.5a3b2f51.chunk.css.map": "/static/css/main.5a3b2f51.chunk.css.map",
     "static/js/2.5be8ed01.chunk.js.LICENSE.txt": "/static/js/2.5be8ed01.chunk.js.LICENSE.txt",
-    "static/media/57122209.236cfe7b.jpg": "/static/media/57122209.236cfe7b.jpg",
     "static/media/BudgetTracker.2bcd2e2a.png": "/static/media/BudgetTracker.2bcd2e2a.png",
     "static/media/LocalEats.994c6096.png": "/static/media/LocalEats.994c6096.png",
     "static/media/SneakerFreakers.38d8cf36.png": "/static/media/SneakerFreakers.38d8cf36.png",
@@ -39,12 +38,13 @@
     "static/media/slide2.9f00198a.jpg": "/static/media/slide2.9f00198a.jpg",
     "static/media/slide3.cef8d240.jpg": "/static/media/slide3.cef8d240.jpg",
     "static/media/t-logo.2ba397d9.png": "/static/media/t-logo.2ba397d9.png",
+    "static/media/taylorj-circle-img.54324172.png": "/static/media/taylorj-circle-img.54324172.png",
     "static/media/typescript.a6305a73.svg": "/static/media/typescript.a6305a73.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.46ecc82c.js",
     "static/js/2.5be8ed01.chunk.js",
     "static/css/main.5a3b2f51.chunk.css",
-    "static/js/main.325e073d.chunk.js"
+    "static/js/main.02c0dd52.chunk.js"
   ]
 }
