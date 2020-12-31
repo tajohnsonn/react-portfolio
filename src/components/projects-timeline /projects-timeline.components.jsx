@@ -1,5 +1,14 @@
 import React from "react";
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import styled from "styled-components";
+import {
+  Timeline,
+  Events,
+  ImageEvent,
+  UrlButton,
+  themes,
+  createTheme
+} from "@merc/react-timeline";
+
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
@@ -14,11 +23,25 @@ import BudgetTracker from "../../assets/img/projects/BudgetTracker.png";
 import SneakerFreakers from "../../assets/img/projects/SneakerFreakers.png";
 import "./projects-timeline.style.css";
 
+const customTheme = createTheme(themes.default, {
+  date: {
+    backgroundColor: "grey",
+    padding: "1em",
+    fontSize: "1rem"
+  },
+  marker: {
+    borderColor: "pink"
+  },
+  timelineTrack: {
+    backgroundColor: "grey"
+  }
+});
+
 const ProjectTimeline = () => {
   return (
     <div id="project">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-      <Timeline align="alternate">
+      <h1 className="pt-3 text-center font-details-b pb-3">RECENT WORK</h1>
+      <Timeline theme={customTheme}>
         <Events>
           <ImageEvent
             date="Created: 02/2020"

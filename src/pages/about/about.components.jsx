@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import Profile from "../../assets/img/profile/57122209.jpg";
+import Profile from "../../assets/img/profile/portfolio-image-about-me.jpeg";
 
 import "./about.styles.css";
 
@@ -28,17 +28,20 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                <h1>
-                  Hey there, I am <strong>&nbsp;Taylor J.</strong>
-                </h1>
-                <br />
-                Passionate and curious Front End Web Developer in Los Angeles,
-                California.
-                <br />
-                Brings professionalism, reliability, and integrity to the table.
-                <br />
-                Always ready to accept challenges head on.
-                <br /> <br />
+                <p>
+                  {" "}
+                  <center>
+                    {" "}
+                    Innovative Sr. Content Curator and Front End Web Developer
+                    with a background in Marketing and fast paced environments.{" "}
+                    <br />
+                    <br />
+                    Passionate about front-end web development and developing
+                    clean user-friendly applications. <br /> <br />
+                    Known among colleagues to be dependable, curious, and detail
+                    oriented.
+                  </center>
+                </p>
                 {/* social buttons start here */}
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
