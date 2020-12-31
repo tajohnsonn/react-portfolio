@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5d60944.chunk.css",
+    "main.css": "/static/css/main.c8e35f38.chunk.css",
     "main.js": "/static/js/main.d509d9aa.chunk.js",
     "main.js.map": "/static/js/main.d509d9aa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.46ecc82c.js",
@@ -8,7 +8,7 @@
     "static/js/2.e04fa8f4.chunk.js": "/static/js/2.e04fa8f4.chunk.js",
     "static/js/2.e04fa8f4.chunk.js.map": "/static/js/2.e04fa8f4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e5d60944.chunk.css.map": "/static/css/main.e5d60944.chunk.css.map",
+    "static/css/main.c8e35f38.chunk.css.map": "/static/css/main.c8e35f38.chunk.css.map",
     "static/js/2.e04fa8f4.chunk.js.LICENSE.txt": "/static/js/2.e04fa8f4.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.2bcd2e2a.png": "/static/media/BudgetTracker.2bcd2e2a.png",
     "static/media/LOGO-DESIGN.eb8d999d.gif": "/static/media/LOGO-DESIGN.eb8d999d.gif",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.46ecc82c.js",
     "static/js/2.e04fa8f4.chunk.js",
-    "static/css/main.e5d60944.chunk.css",
+    "static/css/main.c8e35f38.chunk.css",
     "static/js/main.d509d9aa.chunk.js"
   ]
 }
