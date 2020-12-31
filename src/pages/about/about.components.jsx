@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
+import { MDBView } from "mdbreact";
 import Profile from "../../assets/img/profile/portfolio-image-about-me.jpeg";
 
 import "./about.styles.css";

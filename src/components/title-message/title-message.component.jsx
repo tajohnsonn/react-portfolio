@@ -53,7 +53,7 @@ const TitleMessage = () => (
               ],
               autoStart: true,
               loop: true,
-              delay: 90
+              delay: 100
             }}
           />
         </div>

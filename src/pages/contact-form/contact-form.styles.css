@@ -1,3 +1,8 @@
 .jumbotron {
   background-color: white !important;
 }
+
+.bottomLogo {
+  height: 200px;
+  width: 200px;
+}
