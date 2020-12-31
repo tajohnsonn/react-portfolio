@@ -22,7 +22,7 @@ const About = () => {
                   alt="profile"
                   src={Profile}
                   thumbnail
-                  fluid
+                  responsive
                 />
               </Row>
             </Col>
