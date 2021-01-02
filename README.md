@@ -8,7 +8,7 @@ This is a portfolio created using React.
 
 # Link To Application 👇🏽
 
-> [Deployed Application](https://tajohnsonn.github.io/react-portfolio/)
+> [Deployed Application](https://tajohnsonn.com/)
 
 # Github Repo 👇🏽
 
