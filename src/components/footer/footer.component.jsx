@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.styles.css";
-import logo from "../../assets/img/profile/LOGO-DESIGN.gif";
+import logo from "../../assets/img/profile/taj-logo.png";
 
 const Footer = () => {
   return (

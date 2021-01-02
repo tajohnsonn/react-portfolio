@@ -16,7 +16,7 @@ const Mynavbar = () => {
       >
         <Navbar.Brand href="#home" className="taj">
           {" "}
-          TAJ
+          TAJ CODES.
           {/* <img className="logo" src={Logo} alt="My Portfolio Logo" /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

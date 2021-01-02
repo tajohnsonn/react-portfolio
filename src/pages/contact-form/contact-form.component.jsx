@@ -3,7 +3,6 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import logo from "../../assets/img/profile/LOGO-DESIGN.gif";
 
 import "./contact-form.styles.css";
 
@@ -56,16 +55,6 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
-
-        {/* <Row>
-          <Col className="d-flex justify-content-center flex-wrap">
-            <img
-              src={logo}
-              alt="created by Taylor J. logo"
-              className="bottomLogo"
-            />
-          </Col>
-        </Row> */}
       </Jumbotron>
     </div>
   );
