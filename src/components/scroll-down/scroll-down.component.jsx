@@ -11,7 +11,7 @@ const MyScroll = styled.div`
   background-color: transparent;
   font-weight: bold;
   text-shadow: 1px 1px #45a29e;
-  color: #fff;
+  color: #ffc0cb;
   .turn {
     cursor: pointer;
     transform: rotate(90deg);

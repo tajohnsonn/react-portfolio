@@ -40,16 +40,17 @@ const customTheme = createTheme(themes.default, {
 const ProjectTimeline = () => {
   return (
     <div id="project">
-      <h1 className="pt-3 text-center font-details-b pb-3">RECENT WORK</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline theme={customTheme}>
         <Events>
+          {/* sneaker freakers project starts here */}
+
           <ImageEvent
-            date="Created: 02/2020"
+            date="Created: 12/2020"
             className="text-center"
-            id="projectTitle"
-            text="LOCAL EATS"
-            src={LocalEats}
-            alt="Local Eats"
+            text="SNEAKER FREAKERS"
+            src={SneakerFreakers}
+            alt="Sneaker Freakers"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -66,24 +67,31 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a application for
-                        people who love food! This app uses Google Maps and
-                        Zomato API’s, Bootstrap and Skeleton frameworks, HTML,
-                        and CSS5.
+                        <strong>User Story:</strong>Sneaker Freakers is a React
+                        Library based interactive application, that allows users
+                        to search for sneakers by brand, through a third party
+                        API.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Find Restraunts Nearby</li>
-                          <li>Caliber</li>
-                          <li>Average Cost for 2</li>
-                          <li>Phone Number</li>
+                          <li>Search for sneaker by brand name</li>
+                          <li>Note Page</li>
+                          <li>Curated Team Written Blog Posts</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul className="list-styles pt-1">
-                          <li>HTML</li>
-                          <li>CSS</li>
-                          <li>Javascript</li>
+                          <li>Axios</li>
+                          <li>Bycrypt</li>
+                          <li>Dotenv</li>
+                          <li>Express</li>
+                          <li>JSONWebToken</li>
+                          <li>Mongoose</li>
+                          <li>MaterialUI</li>
+                          <li>Bootstrap</li>
+                          <li>Jquery</li>
+                          <li>React Bootstrap</li>
+                          <li>Slate</li>
                         </ul>
                         <hr />
                       </Card.Body>
@@ -93,13 +101,81 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://elliotfouts.github.io/local-eats/"
+                  href="https://secret-beyond-86832.herokuapp.com/home"
                   target="_blank"
                 >
                   LIVE DEMO
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/elliotfouts/local-eats"
+                  href="https://github.com/sophiaorlando/Project3"
+                  target="_blank"
+                >
+                  REPOSITORY
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* budget tracker tracker project starts here */}
+
+          <ImageEvent
+            date="Created: 10/2020"
+            className="text-center"
+            text="BUDGET TRACKER"
+            src={BudgetTracker}
+            alt="Budget Tracker"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      EXPAND FOR PROJECT DETAILS &nbsp;
+                      <i class="fas fa-angle-down"></i>
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>User Story:</strong>The user will be able to add
+                        expenses and deposits to their budget with or without a
+                        connection. When entering transactions offline, they
+                        should populate the total when brought back online.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Enter deposits offline</li>
+                          <li>Enter expenses offline</li>
+                          <li>
+                            Offline entries are added to tracker once the
+                            application is online.
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>NodeJS</li>
+                          <li>Express</li>
+                          <li>MongoDB</li>
+                          <li>Mongoose</li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://frozen-tundra-49156.herokuapp.com/"
+                  target="_blank"
+                >
+                  LIVE DEMO
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/tajohnsonn/budgetTracker"
                   target="_blank"
                 >
                   REPOSITORY
@@ -108,14 +184,14 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* workday project starts here */}
+          {/* workout tracker project starts here */}
 
           <ImageEvent
-            date="Created: 08/2020"
+            date="Created: 10/2020"
             className="text-center"
-            text="WORK DAY SCHEDULER"
-            src={WorkDay}
-            alt="Work Day Tracker"
+            text="WORKOUT TRACKER"
+            src={WorkoutTracker}
+            alt="Workout Tracker"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -131,16 +207,18 @@ const ProjectTimeline = () => {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Stay organized with this
-                        fun pink themed work day scheduler.
+                        <strong>User Story:</strong> I want to be able to view
+                        create and track daily workouts. I want to be able to
+                        log multiple exercises in a workout on a given day.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Save events for each hour of the work day</li>
+                          <li>Add exercises to a previous workout plan.</li>
+                          <li>Add new exercises to a new workout plan.</li>
                           <li>
-                            Highlights current hour with a different color
+                            View the combined weight of multiple exercises on
+                            the stats page.
                           </li>
-                          <li>Shows current date</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -148,6 +226,8 @@ const ProjectTimeline = () => {
                           <li>HTML</li>
                           <li>CSS</li>
                           <li>Javascript</li>
+                          <li>MongoDB</li>
+                          <li>Express.js</li>
                         </ul>
                         <hr />
                       </Card.Body>
@@ -157,13 +237,13 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://tajohnsonn.github.io/dayPlanner/"
+                  href="https://blooming-spire-19184.herokuapp.com/?id=5f9b5ca0373da30017012e2f"
                   target="_blank"
                 >
                   LIVE DEMO
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/tajohnsonn/dayPlanner"
+                  href="https://github.com/tajohnsonn/workoutTracker"
                   target="_blank"
                 >
                   REPOSITORY
@@ -241,14 +321,14 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* workout tracker project starts here */}
+          {/* workday project starts here */}
 
           <ImageEvent
-            date="Created: 10/2020"
+            date="Created: 03/2020"
             className="text-center"
-            text="WORKOUT TRACKER"
-            src={WorkoutTracker}
-            alt="Workout Tracker"
+            text="WORK DAY SCHEDULER"
+            src={WorkDay}
+            alt="Work Day Tracker"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -264,18 +344,16 @@ const ProjectTimeline = () => {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>User Story:</strong> I want to be able to view
-                        create and track daily workouts. I want to be able to
-                        log multiple exercises in a workout on a given day.
+                        <strong>Description:</strong> Stay organized with this
+                        fun pink themed work day scheduler.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Add exercises to a previous workout plan.</li>
-                          <li>Add new exercises to a new workout plan.</li>
+                          <li>Save events for each hour of the work day</li>
                           <li>
-                            View the combined weight of multiple exercises on
-                            the stats page.
+                            Highlights current hour with a different color
                           </li>
+                          <li>Shows current date</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -283,8 +361,6 @@ const ProjectTimeline = () => {
                           <li>HTML</li>
                           <li>CSS</li>
                           <li>Javascript</li>
-                          <li>MongoDB</li>
-                          <li>Express.js</li>
                         </ul>
                         <hr />
                       </Card.Body>
@@ -294,13 +370,13 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://blooming-spire-19184.herokuapp.com/?id=5f9b5ca0373da30017012e2f"
+                  href="https://tajohnsonn.github.io/dayPlanner/"
                   target="_blank"
                 >
                   LIVE DEMO
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/tajohnsonn/workoutTracker"
+                  href="https://github.com/tajohnsonn/dayPlanner"
                   target="_blank"
                 >
                   REPOSITORY
@@ -309,14 +385,14 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
 
-          {/* budget tracker tracker project starts here */}
-
+          {/* LOCAL EATS */}
           <ImageEvent
-            date="Created: 10/2020"
+            date="Created: 02/2020"
             className="text-center"
-            text="BUDGET TRACKER"
-            src={BudgetTracker}
-            alt="Budget Tracker"
+            id="projectTitle"
+            text="LOCAL EATS"
+            src={LocalEats}
+            alt="Local Eats"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -333,27 +409,24 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>User Story:</strong>The user will be able to add
-                        expenses and deposits to their budget with or without a
-                        connection. When entering transactions offline, they
-                        should populate the total when brought back online.
+                        <strong>Description:</strong> This is a application for
+                        people who love food! This app uses Google Maps and
+                        Zomato API’s, Bootstrap and Skeleton frameworks, HTML,
+                        and CSS5.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Enter deposits offline</li>
-                          <li>Enter expenses offline</li>
-                          <li>
-                            Offline entries are added to tracker once the
-                            application is online.
-                          </li>
+                          <li>Find Restraunts Nearby</li>
+                          <li>Caliber</li>
+                          <li>Average Cost for 2</li>
+                          <li>Phone Number</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul className="list-styles pt-1">
-                          <li>NodeJS</li>
-                          <li>Express</li>
-                          <li>MongoDB</li>
-                          <li>Mongoose</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
                         </ul>
                         <hr />
                       </Card.Body>
@@ -363,13 +436,13 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://frozen-tundra-49156.herokuapp.com/"
+                  href="https://elliotfouts.github.io/local-eats/"
                   target="_blank"
                 >
                   LIVE DEMO
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/tajohnsonn/budgetTracker"
+                  href="https://github.com/elliotfouts/local-eats"
                   target="_blank"
                 >
                   REPOSITORY
@@ -377,78 +450,8 @@ const ProjectTimeline = () => {
               </div>
             </div>
           </ImageEvent>
-          {/* sneaker freakers project starts here */}
 
-          <ImageEvent
-            date="Created: 12/2020"
-            className="text-center"
-            text="SNEAKER FREAKERS"
-            src={SneakerFreakers}
-            alt="Sneaker Freakers"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      EXPAND FOR PROJECT DETAILS &nbsp;
-                      <i class="fas fa-angle-down"></i>
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>User Story:</strong>Sneaker Freakers is a React
-                        Library based interactive application, that allows users
-                        to search for sneakers by brand, through a third party
-                        API.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search for sneaker by brand name</li>
-                          <li>Note Page</li>
-                          <li>Curated Team Written Blog Posts</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Axios</li>
-                          <li>Bycrypt</li>
-                          <li>Dotenv</li>
-                          <li>Express</li>
-                          <li>JSONWebToken</li>
-                          <li>Mongoose</li>
-                          <li>MaterialUI</li>
-                          <li>Bootstrap</li>
-                          <li>Jquery</li>
-                          <li>React Bootstrap</li>
-                          <li>Slate</li>
-                        </ul>
-                        <hr />
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://secret-beyond-86832.herokuapp.com/home"
-                  target="_blank"
-                >
-                  LIVE DEMO
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/sophiaorlando/Project3"
-                  target="_blank"
-                >
-                  REPOSITORY
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
+          {/* LOCAL EATS ENDS */}
         </Events>
       </Timeline>
     </div>

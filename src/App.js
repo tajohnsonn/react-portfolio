@@ -11,10 +11,10 @@ import TitleMessage from "./components/title-message/title-message.component";
 import ScrollDown from "./components/scroll-down/scroll-down.component";
 import About from "./pages/about/about.components";
 import Skills from "./pages/skills/skills.components";
-import projectsTimeline from "./components/projects-timeline /projects-timeline.components";
 import ProjectTimeline from "./components/projects-timeline /projects-timeline.components";
 import Contact from "./pages/contact-form/contact-form.component";
 import Footer from "./components/footer/footer.component";
+import Marketing from "./pages/sk-emails/sk-emails.component";
 
 import "./App.css";
 
@@ -56,6 +56,14 @@ const App = () => {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <ProjectTimeline />
+          </Fade>
+        </Container>
+      </div>
+      {/* projects begin here */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <Marketing />
           </Fade>
         </Container>
       </div>
