@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8e35f38.chunk.css",
-    "main.js": "/static/js/main.5be6b64d.chunk.js",
-    "main.js.map": "/static/js/main.5be6b64d.chunk.js.map",
+    "main.css": "/static/css/main.9b19279c.chunk.css",
+    "main.js": "/static/js/main.ea0cecc6.chunk.js",
+    "main.js.map": "/static/js/main.ea0cecc6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.46ecc82c.js",
     "runtime-main.js.map": "/static/js/runtime-main.46ecc82c.js.map",
-    "static/js/2.e04fa8f4.chunk.js": "/static/js/2.e04fa8f4.chunk.js",
-    "static/js/2.e04fa8f4.chunk.js.map": "/static/js/2.e04fa8f4.chunk.js.map",
+    "static/js/2.1b0f3f17.chunk.js": "/static/js/2.1b0f3f17.chunk.js",
+    "static/js/2.1b0f3f17.chunk.js.map": "/static/js/2.1b0f3f17.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c8e35f38.chunk.css.map": "/static/css/main.c8e35f38.chunk.css.map",
-    "static/js/2.e04fa8f4.chunk.js.LICENSE.txt": "/static/js/2.e04fa8f4.chunk.js.LICENSE.txt",
+    "static/css/main.9b19279c.chunk.css.map": "/static/css/main.9b19279c.chunk.css.map",
+    "static/js/2.1b0f3f17.chunk.js.LICENSE.txt": "/static/js/2.1b0f3f17.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.2bcd2e2a.png": "/static/media/BudgetTracker.2bcd2e2a.png",
     "static/media/LocalEats.994c6096.png": "/static/media/LocalEats.994c6096.png",
     "static/media/SneakerFreakers.38d8cf36.png": "/static/media/SneakerFreakers.38d8cf36.png",
@@ -17,6 +17,7 @@
     "static/media/WorkdayApp.6e128bfc.png": "/static/media/WorkdayApp.6e128bfc.png",
     "static/media/WorkoutTracker.a2063a14.png": "/static/media/WorkoutTracker.a2063a14.png",
     "static/media/background.jpg": "/static/media/background.b9fe5269.jpg",
+    "static/media/bf.e3b80078.jpeg": "/static/media/bf.e3b80078.jpeg",
     "static/media/bootstrap.997c463d.svg": "/static/media/bootstrap.997c463d.svg",
     "static/media/css.8fba365c.svg": "/static/media/css.8fba365c.svg",
     "static/media/firebase.e6583a29.svg": "/static/media/firebase.e6583a29.svg",
@@ -32,18 +33,20 @@
     "static/media/portfolio-image-about-me.0bb9d623.jpeg": "/static/media/portfolio-image-about-me.0bb9d623.jpeg",
     "static/media/react-bootstrap.534ba574.svg": "/static/media/react-bootstrap.534ba574.svg",
     "static/media/react.add74742.svg": "/static/media/react.add74742.svg",
+    "static/media/reciepts.b5db484b.jpeg": "/static/media/reciepts.b5db484b.jpeg",
     "static/media/sass.8aa78a83.svg": "/static/media/sass.8aa78a83.svg",
     "static/media/slack-new-logo.044efd1b.svg": "/static/media/slack-new-logo.044efd1b.svg",
     "static/media/slide-2021.342d9f65.jpeg": "/static/media/slide-2021.342d9f65.jpeg",
     "static/media/slide-fill.99844e9c.jpg": "/static/media/slide-fill.99844e9c.jpg",
     "static/media/slide.f9e6ca27.jpeg": "/static/media/slide.f9e6ca27.jpeg",
     "static/media/slide2.9f00198a.jpg": "/static/media/slide2.9f00198a.jpg",
-    "static/media/typescript.a6305a73.svg": "/static/media/typescript.a6305a73.svg"
+    "static/media/typescript.a6305a73.svg": "/static/media/typescript.a6305a73.svg",
+    "static/media/ulta.688701be.png": "/static/media/ulta.688701be.png"
   },
   "entrypoints": [
     "static/js/runtime-main.46ecc82c.js",
-    "static/js/2.e04fa8f4.chunk.js",
-    "static/css/main.c8e35f38.chunk.css",
-    "static/js/main.5be6b64d.chunk.js"
+    "static/js/2.1b0f3f17.chunk.js",
+    "static/css/main.9b19279c.chunk.css",
+    "static/js/main.ea0cecc6.chunk.js"
   ]
 }
