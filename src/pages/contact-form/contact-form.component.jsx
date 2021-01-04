@@ -20,7 +20,10 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-secondary" title="LinkenIn">
+                <Button
+                  variant="outline-secondary"
+                  title="Connect With Taylor On LinkenIn"
+                >
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>
               </a>
@@ -34,7 +37,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-secondary" title="My other projects">
+                <Button variant="outline-secondary" title="Email Taylor J.">
                   <i class="far fa-envelope"></i>
                   &nbsp; Email: tajohnsonn@gmail.com
                 </Button>
@@ -48,7 +51,10 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-secondary" title="My other projects">
+                <Button
+                  variant="outline-secondary"
+                  title="Connect With Taylor On GitHub"
+                >
                   <i className="fab fa-github-square"></i> GitHub
                 </Button>
               </a>
