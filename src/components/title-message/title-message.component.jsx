@@ -46,9 +46,10 @@ const TitleMessage = () => (
           <Typewriter
             options={{
               strings: [
-                "Web Developer",
+                "Full-Stack Web Developer",
                 "Creative",
                 "Sr. Content Curator",
+                "Strategist",
                 "Student"
               ],
               autoStart: true,
