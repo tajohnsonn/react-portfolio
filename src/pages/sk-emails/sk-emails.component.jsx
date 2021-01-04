@@ -40,6 +40,7 @@ const Emails = () => {
                 id="email-img"
                 src={Reciepts}
                 waves
+                alt="SK Reciepts Webview"
               />
             </MDBCard>
           </MDBCol>
@@ -51,6 +52,7 @@ const Emails = () => {
                 id="email-img"
                 src={CyberMonday}
                 waves
+                alt="Cyber Monday Webview"
               />
             </MDBCard>
           </MDBCol>
@@ -62,6 +64,7 @@ const Emails = () => {
                 id="email-img"
                 src={UltaBeauty}
                 waves
+                alt="Ulta Beauty Webview"
               />
             </MDBCard>
           </MDBCol>
