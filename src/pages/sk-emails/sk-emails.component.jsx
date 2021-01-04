@@ -20,7 +20,7 @@ import CyberMonday from "../../assets/img/emails/bf.jpeg";
 
 const Emails = () => {
   return (
-    <div className="pt-3 pb-3" id="marketing">
+    <div className="pt-3 pb-3 " id="marketing">
       <MDBContainer>
         <h1 className="pt-3 text-center font-details-b pb-3">
           MARKETING EMAILS
